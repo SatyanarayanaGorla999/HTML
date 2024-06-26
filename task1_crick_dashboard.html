@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cricket Dashboard
+        </title>
+             
+           <style>
+              #header{
+                text-align: center;
+                font-family: sans-serif;
+                color: rgb(34, 24, 24);
+                background: linear-gradient(180deg,rgb(80, 57, 212),lightgray);
+                padding: 16px;
+
+              }
+              #tbl{
+                padding-top: 8px;
+                width: 100%;
+                border: 2px solid gray;
+                border-collapse: collapse;
+              }
+           .player-header-row th{
+                border: 2px solid gray;
+                color: white;
+                padding: 16px;
+
+                background-color: rgb(105, 105, 216);
+           }
+
+           .player-details-row td{
+            border: 2px solid gray;
+            padding: 8px;
+            padding-right: 0 ;
+            text-align: center;    
+           }
+          
+           h3{
+            margin: 0;
+           }
+           </style>
+
+    </head>
+    <body>
+        <div>
+            <header id="header">
+                <h1>Cricket Score Dashboard</h1>
+            </header>
+              <div >
+                <h2 style="text-align: center;">
+                    Match Overview
+                </h2>
+              <h3 style="margin: 0; padding: 5px;">Team Ind vs Team Aus</h3>
+              </div>
+            <div id="table">
+                <table id="tbl">
+                    <tr class="player-header-row">
+                        <th>Player</th>
+                        <th>Runs</th>
+                        <th>Balls</th>
+                        <th>4s</th>
+                        <th>6s</th>
+                    </tr>
+                    <tr class="player-details-row">
+                        <td>
+                            <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316600/316605.png" alt="image" class="plrpic" >
+                            <h3>Virat Kohli</h3>
+                        </td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr class="player-details-row">
+                        <td>
+                            <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316500/316584.png" alt="image">
+                            <h3>Rohit Sharma</h3>
+                        </td>
+                        <td>120</td>
+                        <td>70</td>
+                        <td>7</td>
+                        <td>9</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
