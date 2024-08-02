@@ -1,0 +1,83 @@
+<!DOCTYPE >
+<html>
+<head>
+     <title>CSS Scroll Margin Example</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.spacer {
+    height: 300px; /* Creates space to scroll */
+}
+
+section {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.scroll-margin {
+    scroll-margin-top: 50px; /* Adjust the top margin when scrolled into view */
+}
+
+    </style>
+</head>
+<body>
+    <h1>CSS Scroll Margin Example</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <div class="spacer"></div>
+    
+    <section id="section1" class="scroll-margin">
+        <h2>Section 1</h2>
+        <p>This is section 1. Scroll down to see the effect of scroll margin.</p>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section id="section2" class="scroll-margin">
+        <h2>Section 2</h2>
+        <p>This is section 2. Scroll down to see the effect of scroll margin.</p>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section id="section3" class="scroll-margin">
+        <h2>Section 3</h2>
+        <p>This is section 3. Scroll down to see the effect of scroll margin.</p>
+    </section>
+
+    <div class="spacer"></div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Scroll Properties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .scroll-box {
+            height: 300px;
+            overflow-x: scroll;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+        .scroll-box::-webkit-scrollbar {
+            width: 15px;
+        }
+        .scroll-box::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+        .scroll-box::-webkit-scrollbar-thumb {
+            background: #3498db;
+            border-radius: 5px;
+        }
+         .scroll-box::-webkit-scrollbar-thumb:hover {
+            background: #2980b9;
+        }
+        .content {
+            padding: 10px;
+            background-color: #bdc3c7;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Scroll Properties Example</h1>
+    <div class="scroll-box">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit, urna nec tincidunt mattis, turpis felis malesuada eros, non gravida eros neque sed sapien. Integer at arcu gravida, gravida felis nec, laoreet odio. Praesent mollis lacus in ligula fermentum, vel pellentesque lectus tincidunt. Cras interdum, justo eu varius molestie, nisl lorem aliquet felis, id dictum orci felis nec est.</p>
+            <p>Aliquam erat volutpat. Quisque volutpat orci at felis viverra, eget fermentum lacus iaculis. Duis vel tortor vitae odio fermentum volutpat. Vivamus non nisi at arcu blandit fermentum at ut odio. Curabitur a urna vestibulum, congue justo non, lacinia erat. Integer sed urna ac erat venenatis suscipit. Curabitur et augue non lacus fermentum facilisis. Integer suscipit urna nec ante efficitur, at gravida dolor placerat. Maecenas nec risus libero.</p>
+            <p>Fusce euismod bibendum massa, at scelerisque quam elementum quis. Nulla facilisi. Proin vehicula, nulla at tincidunt consectetur, justo arcu bibendum risus, vitae malesuada mi nulla sed nunc. Integer gravida, tortor et convallis vehicula, erat tortor bibendum ligula, non varius libero purus at velit. Aliquam erat volutpat. Aenean et dolor a eros vestibulum varius et ac sapien. Nam fermentum, sapien vel mollis fermentum, metus orci elementum purus, sed volutpat orci sapien id elit.</p>
+        </div>
+        <div class="content">
+            <p>Phasellus consectetur ligula at turpis aliquam, sed feugiat justo blandit. Integer vel eros lacinia, vulputate mi in, pharetra justo. Proin sit amet metus lorem. Nulla facilisi. Nam malesuada libero eu urna faucibus, et hendrerit purus egestas. Curabitur consequat, mi nec iaculis sodales, enim libero hendrerit dui, at bibendum risus ex ut eros. Ut sed posuere eros. Fusce cursus, purus et pellentesque scelerisque, nisl ex porta orci, a blandit quam velit id ligula.</p>
+            <p>Donec sollicitudin neque vitae urna vulputate, ut eleifend purus laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer euismod urna quis volutpat malesuada. In hac habitasse platea dictumst. Etiam fringilla lacus id augue luctus tristique. Curabitur nec erat at ligula interdum faucibus. Mauris nec leo ac dui elementum convallis. Integer facilisis felis sit amet urna faucibus, id tempor mauris pharetra. Suspendisse volutpat felis sit amet eros ultricies, ut porttitor urna vestibulum.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
